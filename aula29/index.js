@@ -33,4 +33,7 @@ function getDiaSemanaTexto(diaSemana) {
 const data = new Date();
 const diaSemana = data.getDay();
 const diaSemanaTexto = getDiaSemanaTexto(diaSemana);
+
+
+
 console.log(diaSemanaTexto);
